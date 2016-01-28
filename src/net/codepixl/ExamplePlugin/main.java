@@ -18,4 +18,10 @@ public class main implements Plugin{
 		System.out.println("Compiled.");
 	}
 
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		System.out.println("I'm updating.");
+	}
+
 }
