@@ -6,22 +6,20 @@ import net.codepixl.GLCraft.GLCraft;
 import net.codepixl.GLCraft.plugin.Plugin;
 import net.codepixl.GLCraft.world.tile.PluginTile;
 
-public class main implements Plugin{
+public class Main implements Plugin{
 
 	@Override
 	public void init() {
-		// TODO Auto-generated method stub
 		GLCraft.getGLCraft().getPluginManager().addTile(new ExampleTile());
 	}
 	
 	public static void main(String[] args) throws IOException{
-		System.out.println("Compiled.");
+		GLCraft.devEnvironment(new Main(),false);
 	}
 
 	@Override
 	public void update() {
-		// TODO Auto-generated method stub
-		System.out.println("I'm updating.");
+		
 	}
 
 }
