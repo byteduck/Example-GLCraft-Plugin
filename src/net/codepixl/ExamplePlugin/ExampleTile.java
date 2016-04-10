@@ -1,13 +1,14 @@
 package net.codepixl.ExamplePlugin;
 
+import net.codepixl.GLCraft.plugin.Plugin;
+import net.codepixl.GLCraft.world.WorldManager;
 import net.codepixl.GLCraft.world.tile.PluginTile;
 
 public class ExampleTile extends PluginTile{
 
-	@Override
-	public float[] getTexCoords() {
-		// TODO Auto-generated method stub
-		return new float[]{1,1};
+	public ExampleTile(Plugin p) {
+		super(p);
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -19,12 +20,18 @@ public class ExampleTile extends PluginTile{
 	@Override
 	public boolean isTransparent() {
 		// TODO Auto-generated method stub
-		return true;
+		return false;
 	}
 
 	@Override
 	public boolean canPassThrough() {
 		// TODO Auto-generated method stub
-		return true;
+		return false;
+	}
+	
+	@Override
+	public void onBreak(int x, int y, int z, WorldManager worldManager){
+		super.onBreak(x, y, z, worldManager);
+		worldManager.entityManager.getPlayer().health = 0;
 	}
 }

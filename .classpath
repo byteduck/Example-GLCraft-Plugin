@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="jar/commons-lang3-3.1.jar"/>
 	<classpathentry kind="lib" path="jar/GLUtils.jar"/>
@@ -16,6 +17,9 @@
 	<classpathentry kind="lib" path="jar/nbt.jar"/>
 	<classpathentry kind="lib" path="jar/slick-util.jar"/>
 	<classpathentry kind="lib" path="jar/zip4j_1.3.2.jar"/>
-	<classpathentry kind="lib" path="GLCraft Src.jar"/>
+	<classpathentry kind="lib" path="GLCraft Dev.jar"/>
+	<classpathentry kind="lib" path="jar/CodecWav.jar"/>
+	<classpathentry kind="lib" path="jar/LibraryLWJGLOpenAL.jar"/>
+	<classpathentry kind="lib" path="jar/SoundSystem.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
