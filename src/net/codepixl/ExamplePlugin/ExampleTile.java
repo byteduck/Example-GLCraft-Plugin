@@ -30,8 +30,8 @@ public class ExampleTile extends PluginTile{
 	}
 	
 	@Override
-	public void onBreak(int x, int y, int z, WorldManager worldManager){
-		super.onBreak(x, y, z, worldManager);
+	public void onBreak(int x, int y, int z, boolean drop, WorldManager worldManager){
+		super.onBreak(x, y, z, drop, worldManager);
 		worldManager.entityManager.getPlayer().health = 0;
 	}
 }

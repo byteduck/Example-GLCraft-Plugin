@@ -3,10 +3,10 @@ package net.codepixl.ExamplePlugin;
 import java.io.IOException;
 
 import net.codepixl.GLCraft.GLCraft;
-import net.codepixl.GLCraft.item.crafting.CraftingManager;
-import net.codepixl.GLCraft.item.crafting.Recipe;
 import net.codepixl.GLCraft.plugin.Plugin;
 import net.codepixl.GLCraft.world.item.ItemStack;
+import net.codepixl.GLCraft.world.item.crafting.CraftingManager;
+import net.codepixl.GLCraft.world.item.crafting.Recipe;
 import net.codepixl.GLCraft.world.tile.Tile;
 
 public class ExamplePlugin implements Plugin{
