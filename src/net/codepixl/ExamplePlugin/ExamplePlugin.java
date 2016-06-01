@@ -9,7 +9,7 @@ import net.codepixl.GLCraft.plugin.Plugin;
 import net.codepixl.GLCraft.world.item.ItemStack;
 import net.codepixl.GLCraft.world.tile.Tile;
 
-public class Main implements Plugin{
+public class ExamplePlugin implements Plugin{
 	
 	public ExampleTile exampleTile = new ExampleTile(this);
 	
@@ -20,7 +20,7 @@ public class Main implements Plugin{
 	}
 	
 	public static void main(String[] args) throws IOException{
-		GLCraft.devEnvironment(new Main(),false);
+		GLCraft.devEnvironment(new ExamplePlugin(),false);
 	}
 
 	@Override
