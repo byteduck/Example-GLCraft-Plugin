@@ -2,5 +2,5 @@
 	"pluginName":"Example Plugin",
 	"pluginVersion":"1.0.0a",
 	"pluginDescription":"An example plugin for testing purposes.",
-	"mainClass":"net.codepixl.ExamplePlugin.main"
+	"mainClass":"net.codepixl.ExamplePlugin.ExamplePlugin"
 }
