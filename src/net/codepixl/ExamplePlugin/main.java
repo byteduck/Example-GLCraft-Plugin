@@ -14,7 +14,7 @@ public class Main implements Plugin{
 	public ExampleTile exampleTile = new ExampleTile(this);
 	
 	@Override
-	public void init() {
+	public void init(){
 		GLCraft.getGLCraft().getPluginManager().addTile(exampleTile);
 		CraftingManager.addRecipe(new Recipe(new ItemStack(Tile.Wood),new ItemStack(),new ItemStack(),new ItemStack(Tile.Wood),new ItemStack(exampleTile,64)));
 	}
@@ -24,7 +24,7 @@ public class Main implements Plugin{
 	}
 
 	@Override
-	public void update() {
+	public void update(){
 		
 	}
 
