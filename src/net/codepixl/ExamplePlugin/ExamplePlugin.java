@@ -11,10 +11,11 @@ import net.codepixl.GLCraft.world.tile.Tile;
 
 public class ExamplePlugin implements Plugin{
 	
-	public ExampleTile exampleTile = new ExampleTile(this);
+	public ExampleTile exampleTile;
 	
 	@Override
 	public void init(){
+		exampleTile = new ExampleTile(this);
 		GLCraft.getGLCraft().getPluginManager().addTile(exampleTile);
 		CraftingManager.addRecipe(new Recipe(new ItemStack(Tile.Wood),new ItemStack(),new ItemStack(),new ItemStack(Tile.Wood),new ItemStack(exampleTile,64)));
 	}
