@@ -7,7 +7,6 @@
 	<classpathentry kind="lib" path="jar/GLUtils.jar"/>
 	<classpathentry kind="lib" path="jar/guava-18.0.jar"/>
 	<classpathentry kind="lib" path="jar/json-20151123.jar"/>
-	<classpathentry kind="lib" path="jar/JSplashScreen.jar"/>
 	<classpathentry kind="lib" path="jar/lwjgl_util.jar"/>
 	<classpathentry kind="lib" path="jar/lwjgl.jar">
 		<attributes>
@@ -17,9 +16,9 @@
 	<classpathentry kind="lib" path="jar/nbt.jar"/>
 	<classpathentry kind="lib" path="jar/slick-util.jar"/>
 	<classpathentry kind="lib" path="jar/zip4j_1.3.2.jar"/>
-	<classpathentry kind="lib" path="GLCraft Dev.jar"/>
 	<classpathentry kind="lib" path="jar/CodecWav.jar"/>
 	<classpathentry kind="lib" path="jar/LibraryLWJGLOpenAL.jar"/>
 	<classpathentry kind="lib" path="jar/SoundSystem.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Game Stuff/My projects/GLCraft/GLCraft.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

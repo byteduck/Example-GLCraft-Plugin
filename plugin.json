@@ -3,4 +3,5 @@
 	"pluginVersion":"1.0.0a",
 	"pluginDescription":"An example plugin for testing purposes.",
 	"mainClass":"net.codepixl.ExamplePlugin.ExamplePlugin"
+	"GLCraftVersion":"0.0.8"
 }
